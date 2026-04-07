@@ -296,11 +296,38 @@
 }
 
 .location-focus {
+  position: relative;
   border-radius: 20px;
   padding: 20px;
   background: rgba(255, 255, 255, 0.72);
   border: 1px solid rgba(100, 71, 44, 0.19);
   text-align: left;
+  overflow: hidden;
+}
+
+.focus-background {
+  position: absolute;
+  inset: 0;
+  background-position: center;
+  background-size: cover;
+  filter: saturate(0.95);
+}
+
+.focus-background::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(248, 245, 238, 0.9) 0%,
+    rgba(248, 245, 238, 0.94) 40%,
+    rgba(248, 245, 238, 0.9) 100%
+  );
+}
+
+.focus-content {
+  position: relative;
+  z-index: 1;
 }
 
 .location-focus h2 {
@@ -312,6 +339,21 @@
 .focus-copy {
   margin-top: 10px;
   max-width: 72ch;
+}
+
+.focus-label {
+  margin-bottom: 2px;
+}
+
+.focus-context-stack {
+  display: grid;
+  gap: 10px;
+  max-width: 74ch;
+}
+
+.focus-context-line {
+  margin: 0;
+  line-height: 1.45;
 }
 
 .focus-context {

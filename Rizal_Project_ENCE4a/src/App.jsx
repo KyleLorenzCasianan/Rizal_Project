@@ -31,100 +31,111 @@ const mapTabs = [
         id: 'calamba',
         name: 'Calamba, Laguna',
         years: '1861-1872',
+        wikiPage: 'Calamba,_Laguna',
         lon: 121.165,
         lat: 14.211,
         what: 'Rizal was born here and developed his early love for learning, nature, and reform ideas from family influence.',
-        during: 'While he was growing up, the Philippines was under Spanish colonial rule, and the Cavite Mutiny period would soon intensify repression and reform debates.',
+        during: 'Calamba in Rizal\'s youth reflected the social tensions of the late Spanish colonial period, where friar estates controlled land and many Filipino families faced economic pressure. The events surrounding the Cavite Mutiny in 1872 and the execution of Gomburza deeply influenced the reform-minded generation to which Rizal belonged. In this environment, education became a path for social mobility but also a space where racial discrimination was normalized. Rizal\'s early observations of injustice in his hometown later resurfaced in his novels, especially in his critiques of abusive authority. Calamba was not only his birthplace but also one of the earliest sources of his political consciousness.',
       },
       {
         id: 'singapore',
         name: 'Singapore',
         years: '1882 (en route)',
+        wikiPage: 'Singapore',
         lon: 103.8198,
         lat: 1.3521,
         what: 'Rizal passed through Singapore on his first voyage to Europe, observing a major trading port shaped by global commerce.',
-        during: 'British colonial trade networks were transforming Asian port cities, showing Rizal a model of rapid urban and commercial development.',
+        during: 'Singapore in the 1880s was a thriving British colonial port where Asian, European, and Middle Eastern communities interacted through trade and labor. Its rapid growth showed how infrastructure, shipping routes, and legal institutions could transform an urban center into a regional hub. For Rizal, this stop offered a practical contrast to the slower and more restrictive economic systems in the Spanish Philippines. He saw firsthand how cosmopolitan environments encouraged mobility, multilingual exchange, and modern administration. The experience broadened his comparative view of governance in Asia under different colonial powers.',
       },
       {
         id: 'barcelona',
         name: 'Barcelona, Spain',
         years: '1882',
+        wikiPage: 'Barcelona',
         lon: 2.1734,
         lat: 41.3851,
         what: 'He arrived in Spain and began writing for reform publications, including pieces advocating civil liberties for Filipinos.',
-        during: 'Spain was experiencing political contestation between conservatives and liberals, which influenced reform discourse in the empire.',
+        during: 'Barcelona exposed Rizal to a politically vibrant press culture where debates on liberalism, republicanism, and regional identity were highly visible. Spain itself was politically unstable, with frequent shifts in power that shaped how colonial policy was discussed and defended. In this climate, Filipino reformists could frame their demands using the language of constitutional rights and civic participation. Rizal\'s early journalistic work benefited from this intellectual space, helping him sharpen both argument and audience awareness. The city became an entry point to European political discourse that would influence his later writings.',
       },
       {
         id: 'madrid',
         name: 'Madrid, Spain',
         years: '1882-1885',
+        wikiPage: 'Madrid',
         lon: -3.7038,
         lat: 40.4168,
         what: 'He studied medicine and philosophy at Universidad Central and joined reform circles that shaped his political thought.',
-        during: 'The Propaganda Movement gained momentum, with Filipino students and intellectuals using print culture to argue for representation and rights.',
+        during: 'Madrid was the center of imperial politics, making it a strategic location for Filipino students seeking reforms from within the Spanish system. During Rizal\'s stay, the Propaganda Movement expanded through newspapers, associations, and public debate among expatriate intellectuals. Reformists argued for representation in the Cortes, equal legal status, and secularization, while conservative forces resisted colonial change. Rizal\'s academic training and political networking progressed side by side, giving him both professional credentials and ideological direction. Madrid therefore served as a laboratory where his reformist ideals became more coherent and public-facing.',
       },
       {
         id: 'paris',
         name: 'Paris, France',
         years: '1885-1886',
+        wikiPage: 'Paris',
         lon: 2.3522,
         lat: 48.8566,
         what: 'Rizal trained under leading ophthalmologists and expanded his multilingual and scientific interests.',
-        during: 'Paris was a center of scientific progress and republican thought, exposing Rizal to new ideas in medicine, arts, and politics.',
+        during: 'Paris in the late nineteenth century was one of Europe\'s leading centers for medicine, publishing, and modern political thought. Rizal\'s exposure to advanced clinical practice there strengthened his technical competence in ophthalmology and reinforced his respect for scientific rigor. At the same time, the city\'s intellectual culture encouraged comparative thinking about nationhood, citizenship, and social reform. He encountered artists, scholars, and professionals whose work reflected the confidence of industrial and scientific modernity. Paris helped him imagine how education and critical inquiry could serve national development.',
       },
       {
         id: 'heidelberg',
         name: 'Heidelberg, Germany',
         years: '1886',
+        wikiPage: 'Heidelberg',
         lon: 8.6724,
         lat: 49.3988,
         what: 'He refined his medical specialization and completed key sections of Noli Me Tangere while abroad.',
-        during: 'German universities and scholarly circles gave Rizal access to rigorous research culture that shaped his nationalist writing style.',
+        during: 'Heidelberg represented the disciplined university culture of Germany, where methodical research and scholarly precision were highly valued. Rizal\'s medical training here deepened his professional identity while he simultaneously advanced his literary and political project. The intellectual atmosphere encouraged careful documentation, historical inquiry, and strong evidentiary argument, qualities visible in his prose. As he worked on Noli Me Tangere, he translated lived colonial realities into a form understandable to international readers. Heidelberg thus strengthened both his technical expertise and the analytic sharpness of his reformist voice.',
       },
       {
         id: 'berlin',
         name: 'Berlin, Germany',
         years: '1886-1887',
+        wikiPage: 'Berlin',
         lon: 13.405,
         lat: 52.52,
         what: 'Rizal worked to secure publication support for Noli Me Tangere and built links with scholars interested in Philippine history.',
-        during: 'Berlin was a major imperial capital in Europe, where industrial and political modernity strongly contrasted with conditions in the colony.',
+        during: 'Berlin gave Rizal access to printers, academic circles, and comparative historical scholarship that were crucial to his publishing goals. The city was a symbol of modern state power, industrial development, and intellectual specialization in late nineteenth-century Europe. Against this backdrop, conditions in the Philippines appeared even more starkly unequal and underdeveloped. Rizal\'s interactions with scholars and institutions in Berlin helped internationalize interest in Filipino history and identity. His work there demonstrated how literary production could function as both political critique and nation-building effort.',
       },
       {
         id: 'london',
         name: 'London, United Kingdom',
         years: '1888-1889',
+        wikiPage: 'London',
         lon: -0.1276,
         lat: 51.5072,
         what: 'He researched at the British Museum and annotated Antonio de Morga to recover a pre-colonial Filipino historical perspective.',
-        during: 'Late-Victorian Britain was at the height of global influence; debates on empire and liberalism framed Rizal\'s comparative thinking.',
+        during: 'London during the Victorian era was the center of a global empire and a major archive of colonial knowledge. At the British Museum, Rizal used historical documents to challenge narratives that portrayed Filipinos as passive or uncivilized before Spanish rule. His annotation of Morga was a deliberate intellectual intervention to restore agency and complexity to Philippine history. The city\'s imperial institutions showed him both the power and the politics of archival authority. London sharpened his belief that controlling historical narrative was essential to any national awakening.',
       },
       {
         id: 'brussels',
         name: 'Brussels, Belgium',
         years: '1890',
+        wikiPage: 'Brussels',
         lon: 4.3517,
         lat: 50.8503,
         what: 'Rizal continued writing El Filibusterismo in Brussels while managing financial constraints and political pressure.',
-        during: 'Across Europe, social and nationalist movements were reshaping politics, reinforcing Rizal\'s urgency for reform at home.',
+        during: 'Brussels offered Rizal a comparatively quieter environment where he could continue writing despite financial and emotional strain. Across Europe, socialist, liberal, and nationalist debates were intensifying, with questions of power and social justice becoming harder to ignore. These continental tensions resonated with his growing frustration over the limits of purely gradual reform in the Philippines. While in Brussels, his tone in El Filibusterismo became darker and more critical, reflecting sharper political urgency. The city became a transitional space between early optimism and a more sobering critique of colonial reality.',
       },
       {
         id: 'hong-kong',
         name: 'Hong Kong',
         years: '1891-1892',
+        wikiPage: 'Hong_Kong',
         lon: 114.1694,
         lat: 22.3193,
         what: 'He practiced medicine, assisted fellow Filipinos, and continued writing and organizing reformist support.',
-        during: 'Hong Kong served as a strategic refuge and communication hub for expatriate Filipinos under intensifying Spanish surveillance.',
+        during: 'Hong Kong functioned as a practical refuge where Rizal could work, write, and organize with less direct pressure from Spanish colonial authorities. Its legal and commercial environment enabled wider communication among expatriates, reformists, and families under surveillance. Rizal\'s medical practice there connected him to Filipino migrants and elites, expanding his support network beyond student circles. The city also highlighted the strategic value of diaspora communities in sustaining political movements. Hong Kong became both a safe operational base and a node in the transnational reform effort.',
       },
       {
         id: 'yokohama',
         name: 'Yokohama, Japan',
         years: '1888',
+        wikiPage: 'Yokohama',
         lon: 139.638,
         lat: 35.4437,
         what: 'Rizal stayed in Yokohama and admired Japan\'s modernization, discipline, and strong national identity.',
-        during: 'Meiji-era Japan was rapidly modernizing, offering Rizal a living example of Asian reform without Western colonization.',
+        during: 'Yokohama introduced Rizal to Meiji Japan at a time of rapid modernization in education, military organization, technology, and public administration. He observed that an Asian nation could adapt modern systems while preserving cultural dignity and political sovereignty. This contrasted strongly with the colonial dependency imposed on the Philippines. Japan\'s progress offered Rizal a concrete example that reform was not exclusively a Western path but could be locally led and culturally grounded. The experience reinforced his confidence that Filipino society could also modernize through education and civic reform.',
       },
     ],
   },
@@ -138,64 +149,71 @@ const mapTabs = [
         id: 'manila',
         name: 'Manila',
         years: '1872-1882, 1892',
+        wikiPage: 'Manila',
         lon: 120.9842,
         lat: 14.5995,
         what: 'He studied at Ateneo and UST, and later founded La Liga Filipina to pursue peaceful reforms.',
-        during: 'Manila was the colonial center where censorship, clerical power, and social inequality were most visible to young reformists.',
+        during: 'Manila was the political and ecclesiastical center of colonial rule, where privilege and exclusion were visible in schools, courts, and public life. Rizal\'s formative years there exposed him to both high academic achievement and structural discrimination against indios and mestizos. In 1892, his founding of La Liga Filipina in Manila represented an organized attempt at peaceful civic reform and mutual aid. Colonial authorities quickly viewed such initiatives as threatening, reflecting the narrow limits of tolerated dissent. Manila was therefore both the site of intellectual development and the arena where reform met direct repression.',
       },
       {
         id: 'binan',
         name: 'Biñan, Laguna',
         years: 'Early schooling',
+        wikiPage: 'Binan',
         lon: 121.0819,
         lat: 14.3334,
         what: 'Rizal studied in Biñan under Maestro Justiniano Aquino Cruz, sharpening his academic discipline at an early age.',
-        during: 'Provincial education in this period reflected class and racial hierarchies that later became targets of Rizal\'s critique.',
+        during: 'Biñan was one of the early settings where Rizal experienced formal instruction beyond the family household. Local schooling in the period often combined strict discipline with social hierarchy, revealing how class and race influenced treatment and opportunity. These early encounters helped shape his sensitivity to dignity, merit, and fairness in educational life. The contrast between talent and structural inequality remained a recurring theme in his later social critiques. Biñan thus served as a formative stage in his moral and intellectual development.',
       },
       {
         id: 'dapitan',
         name: 'Dapitan, Zamboanga',
         years: '1892-1896',
+        wikiPage: 'Dapitan',
         lon: 123.4244,
         lat: 8.6549,
         what: 'During exile, Rizal built a school, practiced medicine, designed civic projects, and served the community.',
-        during: 'Even in exile, he demonstrated practical nation-building through education, sanitation, and local development projects.',
+        during: 'Dapitan transformed Rizal from primarily a writer-reformer into a hands-on community builder under conditions of political exile. He organized a small school, introduced practical science learning, practiced medicine, and helped design local infrastructure and sanitation improvements. These projects demonstrated his belief that nation-building required everyday civic work, not only political slogans. Even while monitored by colonial authorities, he showed that constructive leadership could thrive in constrained settings. Dapitan remains one of the strongest examples of Rizal\'s applied reform philosophy.',
       },
       {
         id: 'cebu',
         name: 'Cebu (transit)',
         years: '1892',
+        wikiPage: 'Cebu_City',
         lon: 123.8854,
         lat: 10.3157,
         what: 'Rizal passed through the Visayas en route to exile, a reminder that his fate was being decided by colonial authorities.',
-        during: 'Inter-island movement of political prisoners reflected how the colonial state controlled dissent across the archipelago.',
+        during: 'Cebu represented the inter-island routes through which colonial power managed movement, communication, and punishment across the archipelago. Rizal\'s transit through the Visayas highlighted how political decisions made in Manila affected distant provincial spaces. Ports like Cebu were not only economic gateways but also logistical instruments of state control. The journey underscored the geographic scale of colonial governance and surveillance. It also showed how reformist figures became symbols recognized far beyond the capital.',
       },
       {
         id: 'fort-santiago',
         name: 'Fort Santiago',
         years: '1896',
+        wikiPage: 'Fort_Santiago',
         lon: 120.9712,
         lat: 14.5975,
         what: 'He was imprisoned here before trial, writing final letters and preparing for his final sacrifice.',
-        during: 'As the Philippine Revolution spread, colonial authorities accelerated prosecutions and symbolic punishment of reform leaders.',
+        during: 'Fort Santiago was one of the most feared colonial detention sites, associated with interrogation, confinement, and exemplary punishment. Rizal\'s imprisonment there occurred as revolutionary unrest intensified, increasing the political stakes of his trial. Authorities aimed to frame him as a warning to reformists and revolutionaries alike, regardless of his complex position on armed revolt. In this setting, his writings and final communications took on profound moral and historical significance. Fort Santiago became a symbolic threshold between colonial prosecution and national memory.',
       },
       {
         id: 'bagumbayan',
         name: 'Bagumbayan (Luneta)',
         years: 'December 30, 1896',
+        wikiPage: 'Rizal_Park',
         lon: 120.9822,
         lat: 14.5827,
         what: 'Rizal was executed here, inspiring generations in the struggle for national freedom and identity.',
-        during: 'His execution transformed him into a unifying symbol, strengthening nationalist resolve during the revolution.',
+        during: 'Bagumbayan became the site where colonial authority intended to end Rizal\'s influence through public execution. Instead, the event amplified his symbolic power and helped unify diverse sectors of the nationalist movement. His death was interpreted not as defeat but as testimony to principle, sacrifice, and civic responsibility. During the revolution, this symbolism strengthened morale and gave moral clarity to anti-colonial struggle. The location remains central to Philippine historical memory because it marks the conversion of a reformist intellectual into a national martyr.',
       },
       {
         id: 'calamba-ph',
         name: 'Calamba, Laguna',
         years: 'Childhood and Returns',
+        wikiPage: 'Calamba,_Laguna',
         lon: 121.165,
         lat: 14.211,
         what: 'His hometown remained central to his social awareness, especially on agrarian injustice and colonial abuse.',
-        during: 'The Calamba agrarian conflict deepened his conviction that social reform required structural political change.',
+        during: 'Rizal\'s return to Calamba connected personal loyalty to concrete social conflict, especially disputes over land rent and friar estate control. The agrarian tensions there revealed how legal and economic systems protected powerful institutions over ordinary tenants. As his family and neighbors experienced harassment and displacement, reform became an urgent lived issue rather than an abstract principle. These events deepened his critique of colonial governance and sharpened his call for structural change. Calamba therefore remained both an emotional home and a decisive political reference point in his life.',
       },
     ],
   },
@@ -205,6 +223,7 @@ function App() {
   const [activeTab, setActiveTab] = useState('world')
   const [isLocationFocusOpen, setIsLocationFocusOpen] = useState(false)
   const [isAboutPageOpen, setIsAboutPageOpen] = useState(false)
+  const [focusBackgrounds, setFocusBackgrounds] = useState({})
   const [zoomByMap, setZoomByMap] = useState({
     world: { scale: 1, x: 0, y: 0 },
     philippines: { scale: 1, x: 0, y: 0 },
@@ -227,6 +246,54 @@ function App() {
   const activePoint =
     activeMap.points.find((point) => point.id === activePointId) ??
     activeMap.points[0]
+
+  const widerContextParagraphs = useMemo(() => {
+    const parts = activePoint.during.match(/[^.!?]+[.!?]*/g) ?? []
+    const cleaned = parts.map((sentence) => sentence.trim()).filter(Boolean)
+    const grouped = []
+
+    for (let index = 0; index < cleaned.length; index += 2) {
+      grouped.push(cleaned.slice(index, index + 2).join(' '))
+    }
+
+    return grouped
+  }, [activePoint])
+
+  useEffect(() => {
+    if (!isLocationFocusOpen || !activePoint?.wikiPage) {
+      return
+    }
+
+    if (focusBackgrounds[activePoint.id]) {
+      return
+    }
+
+    let isCancelled = false
+    const pageTitle = encodeURIComponent(activePoint.wikiPage)
+
+    fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${pageTitle}`)
+      .then((response) => response.json())
+      .then((data) => {
+        if (isCancelled) {
+          return
+        }
+
+        const imageUrl = data?.originalimage?.source || data?.thumbnail?.source
+        if (imageUrl) {
+          setFocusBackgrounds((prev) => ({
+            ...prev,
+            [activePoint.id]: imageUrl,
+          }))
+        }
+      })
+      .catch(() => {
+        // Fail silently and keep gradient fallback.
+      })
+
+    return () => {
+      isCancelled = true
+    }
+  }, [activePoint, isLocationFocusOpen, focusBackgrounds])
 
   const worldLand = useMemo(
     () => feature(land110m, land110m.objects.land),
@@ -389,26 +456,53 @@ function App() {
         </section>
       ) : isLocationFocusOpen ? (
         <section className="location-focus" aria-label="Focused location details">
-          <button
-            className="back-button"
-            onClick={() => setIsLocationFocusOpen(false)}
-          >
-            Back to Map
-          </button>
+          <div
+            className="focus-background"
+            style={{
+              backgroundImage: focusBackgrounds[activePoint.id]
+                ? `url(${focusBackgrounds[activePoint.id]})`
+                : undefined,
+            }}
+            aria-hidden="true"
+          ></div>
 
-          <p className="detail-label">Focused Rizal Location</p>
-          <h2>{activePoint.name}</h2>
-          <p className="year-chip">{activePoint.years}</p>
-          <p className="focus-copy">{activePoint.what}</p>
-          <p className="focus-copy">
-            <strong>Wider context:</strong> {activePoint.during}
-          </p>
+          <div className="focus-content">
+            <button
+              className="back-button"
+              onClick={() => setIsLocationFocusOpen(false)}
+            >
+              Back to Map
+            </button>
 
-          <div className="focus-context">
-            <p>
-              This location is part of the <strong>{activeMap.label}</strong> journey.
-              Use the back button to continue exploring other Rizal locations.
+            <p className="detail-label">Focused Rizal Location</p>
+            <h2>{activePoint.name}</h2>
+            <p className="year-chip">{activePoint.years}</p>
+            <p className="focus-copy">
+              {activePoint.what} In this location, Rizal's decisions and intellectual
+              work helped shape his role as a reformist thinker and national figure.
             </p>
+            <p className="focus-copy focus-label">
+              <strong>Wider context:</strong>
+            </p>
+            <div className="focus-context-stack">
+              {widerContextParagraphs.map((paragraph, index) => (
+                <p key={`${activePoint.id}-during-${index}`} className="focus-context-line">
+                  {paragraph}
+                </p>
+              ))}
+              <p className="focus-context-line">
+                Together, these local and global developments show how Rizal's life
+                was tied to larger political, educational, and social transformations
+                in the late 19th century.
+              </p>
+            </div>
+
+            <div className="focus-context">
+              <p>
+                This location is part of the <strong>{activeMap.label}</strong> journey.
+                Use the back button to continue exploring other Rizal locations.
+              </p>
+            </div>
           </div>
         </section>
       ) : (
