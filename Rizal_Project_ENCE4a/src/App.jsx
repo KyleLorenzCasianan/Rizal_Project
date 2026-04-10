@@ -455,6 +455,9 @@ function App() {
   const isMapControlInteraction = (target) =>
     target instanceof Element && Boolean(target.closest('.map-controls'))
 
+  const isMapPinInteraction = (target) =>
+    target instanceof Element && Boolean(target.closest('.pin'))
+
   const handleMapWheel = (event) => {
     if (isMapControlInteraction(event.target)) {
       return
@@ -483,6 +486,10 @@ function App() {
 
   const handlePointerDown = (event) => {
     if (isMapControlInteraction(event.target)) {
+      return
+    }
+
+    if (isMapPinInteraction(event.target)) {
       return
     }
 
